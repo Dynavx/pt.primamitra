@@ -132,7 +132,8 @@ sub {
 sup {
   top: -.5em; }
 
-a {
+/* inicoloranchor */
+/* a {
   color: #ffc246;
   text-decoration: none;
   background-color: transparent; }
@@ -145,7 +146,7 @@ a:not([href]) {
   text-decoration: none; }
   a:not([href]):hover {
     color: inherit;
-    text-decoration: none; }
+    text-decoration: none; } */
 
 pre,
 code,
@@ -1789,7 +1790,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  /* color: #212529; */
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -1808,7 +1809,7 @@ textarea.form-control {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #212529;
+    /* color: #212529; */
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
@@ -1823,10 +1824,10 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #FFFFFF;
   background-color: #293E66;
-  border-color: #ffc246; }
+ }
   .btn-primary:hover {
     color: #212529;
-    background-color: #ffb520;
+    background-color: #DEE2E6;
     border-color: #ffb113; }
   .btn-primary:focus, .btn-primary.focus {
     color: #212529;
@@ -9745,7 +9746,7 @@ p {
 .theme-button {
   transition: 0.3s ease-out;
   display: inline-block;
-  line-height: 40px;
+  line-height: 45px;
   font-weight: 700;
   font-size: 12px;
   margin: 0px;
@@ -9819,7 +9820,7 @@ p {
 
 .w3l-top-header-strip .quick-links ul li span {
   font-size: 18px;
-  color: var(--primary);
+
   margin-right: 5px;
   opacity: 0.8; }
 
@@ -10441,7 +10442,7 @@ p {
   z-index: 1; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/mainslide1.jpg) no-repeat center;
+  background: url(../images/drum.jpeg) no-repeat center;
   background-size: cover;
   min-height: 700px;
   position: relative;
@@ -10454,7 +10455,7 @@ p {
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/mainslide3.jpg) no-repeat center;
+  background: url(../images/banner.jpg) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top3 {
@@ -10864,12 +10865,12 @@ button.owl-next {
   transition: transform 0.3s linear; }
 
 .w3l-index2 .info h3 {
-  color: #fff;
+
   font-size: 32px;
   font-weight: 700; }
 
 .w3l-index2 .info p {
-  color: #eee;
+
   font-size: 14px;
   line-height: 24.5px; }
 
@@ -10878,7 +10879,6 @@ button.owl-next {
 
 .w3l-index3 .aboutgrids h4 {
   font-size: 40px;
-  color: var(--secondary);
   font-weight: 400; }
 
 .w3l-index3 .aboutgrids p {
@@ -10977,7 +10977,7 @@ button.owl-next {
   transition: 0.3s ease; }
 
 .w3l-index4 .feature-gd:hover div.icon-info h5 a {
-  color: var(--secondary); }
+  color: var(--primary); }
 
 .w3l-index4 .features h3,
 .w3l-index4 .features p,
